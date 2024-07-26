@@ -11,6 +11,7 @@
 		3AEE43FA2C5251B40032E104 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE43F92C5251B40032E104 /* ContentView.swift */; };
 		3AEE43FC2C5251B60032E104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEE43FB2C5251B60032E104 /* Assets.xcassets */; };
 		3AEE43FF2C5251B60032E104 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEE43FE2C5251B60032E104 /* Preview Assets.xcassets */; };
+		3AEE44092C525BD40032E104 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE44082C525BD40032E104 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3AEE43F92C5251B40032E104 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AEE43FB2C5251B60032E104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AEE43FE2C5251B60032E104 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AEE44082C525BD40032E104 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,9 @@
 		3AEE43F62C5251B40032E104 /* ToDo App */ = {
 			isa = PBXGroup;
 			children = (
+				3AEE44072C525B310032E104 /* Model */,
+				3AEE44052C525B250032E104 /* View */,
+				3AEE44062C525B290032E104 /* ViewModel */,
 				3AEE43F72C5251B40032E104 /* ToDo_AppApp.swift */,
 				3AEE43F92C5251B40032E104 /* ContentView.swift */,
 				3AEE43FB2C5251B60032E104 /* Assets.xcassets */,
@@ -65,6 +70,28 @@
 				3AEE43FE2C5251B60032E104 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AEE44052C525B250032E104 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AEE44082C525BD40032E104 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AEE44062C525B290032E104 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3AEE44072C525B310032E104 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEE44092C525BD40032E104 /* LoginView.swift in Sources */,
 				3AEE43FA2C5251B40032E104 /* ContentView.swift in Sources */,
 				3AEE43F82C5251B40032E104 /* ToDo_AppApp.swift in Sources */,
 			);
